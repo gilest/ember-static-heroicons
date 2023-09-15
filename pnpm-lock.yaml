@@ -189,6 +189,9 @@ importers:
       ember-static-heroicons:
         specifier: workspace:*
         version: link:../ember-static-heroicons
+      ember-template-imports:
+        specifier: ^3.4.2
+        version: registry.npmjs.org/ember-template-imports@3.4.2
       ember-template-lint:
         specifier: ^5.11.2
         version: registry.npmjs.org/ember-template-lint@5.11.2
