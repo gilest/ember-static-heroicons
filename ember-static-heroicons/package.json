@@ -28,7 +28,8 @@
     "lint:js:fix": "eslint . --fix",
     "prepack": "rollup --config",
     "start": "rollup --config --watch",
-    "test": "echo 'A v2 addon does not have tests, run tests in test-app'"
+    "test": "echo 'A v2 addon does not have tests, run tests in test-app'",
+    "generate-components": "node ./tasks/generate-components.mjs"
   },
   "dependencies": {
     "@embroider/addon-shim": "^1.0.0"
@@ -50,8 +51,10 @@
     "eslint-plugin-ember": "^11.10.0",
     "eslint-plugin-n": "^16.0.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "heroicons": "^2.0.18",
     "prettier": "^2.5.1",
     "prettier-plugin-ember-template-tag": "^0.3.2",
+    "rimraf": "^5.0.1",
     "rollup": "^3.21.8",
     "rollup-plugin-copy": "^3.4.0"
   },
