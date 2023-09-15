@@ -7,11 +7,7 @@ module('Integration | Component | icon', function (hooks) {
   setupRenderingTest(hooks);
 
   test('it renders', async function (assert) {
-    await render(
-      <template>
-        <AcademicCap />
-      </template>
-    );
+    await render(<template><AcademicCap /></template>);
 
     assert.dom('svg').exists();
   });
